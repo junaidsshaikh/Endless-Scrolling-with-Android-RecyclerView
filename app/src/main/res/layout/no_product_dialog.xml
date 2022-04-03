@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/padding_16"
+    android:paddingBottom="@dimen/padding_16"
+    android:paddingStart="@dimen/padding_32"
+    android:paddingEnd="@dimen/padding_32"
+    android:orientation="vertical"
+    android:id="@+id/no_item_layout">
+
+    <TextView
+        android:id="@+id/progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:gravity="center_vertical"
+        android:text="No item is found"
+        android:textColor="@color/GBL1_5"
+        android:textSize="15sp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
